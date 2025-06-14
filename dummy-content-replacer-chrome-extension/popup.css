@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    width: 300px;
+}
+
+.popup-container {
+    padding: 16px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: #333;
+    text-align: center;
+}
+
+label {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 6px;
+    display: block;
+}
+
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.btn {
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.2s ease;
+}
+
+.btn.primary {
+    background-color: #3f51b5;
+}
+
+.btn.primary:hover {
+    background-color: #303f9f;
+}
+
+.btn.success {
+    background-color: #4caf50;
+}
+
+.btn.success:hover {
+    background-color: #388e3c;
+}
+
+.btn.danger {
+    background-color: #f44336;
+}
+
+.btn.danger:hover {
+    background-color: #d32f2f;
+}

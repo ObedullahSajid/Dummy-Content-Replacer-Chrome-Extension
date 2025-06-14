@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dummy Content Replacer</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+  <div class="popup-container">
+    <h2>Dummy Content Replacer</h2>
+
+    <label for="textType">Select Dummy Text Type:</label>
+    <select id="textType">
+      <option value="default">Lorem Ipsum</option>
+      <option value="custom">Custom Text</option>
+      <option value="arabic">Arabic</option>
+      <option value="hindi">Hindi</option>
+      <option value="chinese">Chinese</option>
+    </select>
+
+    <textarea id="customText" rows="3" placeholder="Enter your custom dummy text here..."></textarea>
+
+    <div class="buttons">
+      <button id="save" class="btn primary">💾 Save Options</button>
+      <button id="replace" class="btn success">🔁 Replace Text</button>
+      <button id="undo" class="btn danger">↩️ Undo</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>

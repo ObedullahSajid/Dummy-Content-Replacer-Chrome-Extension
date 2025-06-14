@@ -1,0 +1,1 @@
+// Not used, but required for service_worker setupchrome.runtime.onInstalled.addListener(() => {
